@@ -1,0 +1,31 @@
+/* 记录项item样式 */
+.item {
+    /* 
+    date和content水平排列
+        1.开启弹性盒
+        2.背景颜色 
+        3.圆角
+        4.阴影
+        5.外边距 -> 上下距离
+        6.内边距 -> 边框与内容距离
+    */
+    display: flex;
+    background-color: #fcbf49;
+    margin: 16px 0;
+    padding: 8px;
+}
+
+/* 删除按钮样式 */
+.delete {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete:hover {
+    color: red;
+    transform: rotate(1turn)
+}

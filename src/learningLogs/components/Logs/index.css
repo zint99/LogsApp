@@ -1,0 +1,28 @@
+/* 设置基本盒子模型 */
+* {
+    box-sizing: border-box;
+}
+
+/* 配置body颜色与外边距 */
+body {
+    background-color: #dfdfdf;
+    margin: 0;
+}
+
+/*
+     外层容器logs
+        1.指定宽度
+        2.居中
+        3.指定颜色
+        4.圆角
+        5.立体感 -> 阴影
+        6.内边距 -> 内容与边框距离
+ */
+.logs {
+    background-color: #eae2b7;
+    padding: 20px;
+}
+
+.no-logs {
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+/* 内容content */
+.content {
+    /*弹性盒自动伸缩*/
+    flex: auto;
+    text-align: center;
+}
+
+/* title内容 */
+.title {
+    color: #194b49;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* time */
+.time {
+    color: #d62828;
+}

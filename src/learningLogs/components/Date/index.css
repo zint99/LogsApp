@@ -1,0 +1,26 @@
+/* 设置date */
+.date {
+    width: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    /* 避免子元素覆盖父元素圆角 */
+    overflow: hidden;
+}
+
+/* month */
+.month {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: #d62828;
+    color: #fff;
+}
+
+/* day */
+.day {
+    height: 60px;
+    line-height: 60px;
+    font-size: 50px;
+}
